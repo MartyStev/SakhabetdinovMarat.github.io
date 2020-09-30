@@ -6,7 +6,7 @@
 
 Пользователь экспортирует Excel файл в CSV файл
 
-![https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/JqzYTCnYQXY.png?raw=true]()
+![a](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/JqzYTCnYQXY.png?raw=true)
 
 Пользователь должен экспортировать данные в соосвтесии с требованиям формата данных, пользуясь исходными данными и ПО MS Excel
 
