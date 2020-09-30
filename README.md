@@ -17,3 +17,22 @@
 Диаграмма прецедентов
 
 ![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/uml-prec.png?raw=true)
+
+# Лабораторная 2
+
+Диаграмма IDEF0:
+Контекстная:
+
+![idef0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/01_A0.png?raw=true)
+
+Средний уровень:
+
+![диаграмма классов](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/02_A00.png?raw=true)
+
+DFD-диаграмма (блок:Снабдить):
+
+![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/03_A20.png?raw=true)
+
+Диаграмма прецедентов:
+
+![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/ump-proc.png?raw=true)
