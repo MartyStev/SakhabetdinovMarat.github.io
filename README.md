@@ -6,14 +6,14 @@
 
 Пользователь экспортирует Excel файл в CSV файл
 
-![a](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/JqzYTCnYQXY.png?raw=true)
+![idef0](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/01_A0.png?raw=true)
 
 Пользователь должен экспортировать данные в CSV файл в соответствии с требованиями формата данных, пользуясь исходными данными (в качестве которых Excel файл) и ПО MS Excel
 
 Диаграмма классов
 
-![диаграмма классов]()
+![диаграмма классов](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/uml-class.png?raw=true)
 
 Диаграмма прецедентов
 
-![Диаграмма прецедентов]()
+![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/uml-prec.png?raw=true)
