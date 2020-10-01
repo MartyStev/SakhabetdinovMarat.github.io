@@ -27,11 +27,11 @@
 
 Средний уровень:
 
-![диаграмма классов](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/02_A00.png?raw=true)
+![2а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/02_A0.png?raw=true)
 
 DFD-диаграмма (блок:Снабдить):
 
-![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/03_A20.png?raw=true)
+![3а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/03_A20.png?raw=true)
 
 Диаграмма прецедентов:
 
