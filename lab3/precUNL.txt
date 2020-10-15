@@ -1,0 +1,43 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+autonumber
+
+actor "Механик" as user
+database "Расписание гонок" as dbrace
+database "Технические проблемы" as dbproblem
+entity "Запчасти" as en
+control "Ремонт" as con
+collections "автомобиль" as col
+
+user -> dbrace: Просмотор графика
+dbrace -> dbproblem: Просмотр задач
+activate dbproblem
+
+== Проверка задач ==
+
+loop
+   dbproblem -> en: Наличие запчастей
+   activate en
+   en --> dbproblem: Решение проблем
+   deactivate en
+end
+
+== Выполнение задач ==
+
+loop
+   dbproblem -> en: Задача
+   en -> con: Запчасти
+   con -> col: Готовый автомобиль
+   activate col
+   col -> dbproblem: Состояние автомобиля
+   deactivate col
+end
+   dbproblem --> user: ok
+   deactivate dbproblem
+
+== ==
+@enduml
