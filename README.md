@@ -23,12 +23,12 @@
 Диаграмма IDEF0:
 Контекстная:
 
-![idef0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/01_A01.png?raw=true)
+![idef0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/01_A0.png)
 
 На диаграмме изображен процесс работы гоночной команды
 Средний уровень:
 
-![2а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/02_A01.png?raw=true)
+![2а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/02_A0.png)
 
 A1 Менеджер получает на вход расписание этапов гоночной серии и результаты пройденных этапов. На выходе резльтаты за серию (Предпологаемое чемпионство).
 
@@ -41,7 +41,7 @@ A1 Менеджер получает на вход расписание этап
 
 #DFD-диаграмма (блок:Снабдить):
 
-![3а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/03_A21.png?raw=true)
+![3а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/03_A2.png)
 
 Снабженец получает наряд заказ и заносит их в базу данных, определяя на основе расписаниях их необходимость в данный момент.
 
