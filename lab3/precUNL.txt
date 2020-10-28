@@ -6,7 +6,7 @@ skinparam actor {
 }
 autonumber
 
-actor "Механик" as user
+actor ": Механик" as user
 database "Задачи" as dbproblem
 entity "Запчасти" as en
 control "Ремонт" as con
