@@ -2,30 +2,30 @@
 
 # студент группы ИДБ-17-06 Сахабетдинов М.Х.
 
-## Лабораторная 1
+# Лабораторная 1
 
-Пользователь экспортирует Excel файл в CSV файл
+## Пользователь экспортирует Excel файл в CSV файл
 
 ![idef0](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/01_A0.png?raw=true)
 
 Пользователь должен экспортировать данные в CSV файл в соответствии с требованиями формата данных, пользуясь исходными данными (в качестве которых Excel файл) и ПО MS Excel
 
-Диаграмма классов
+## Диаграмма классов
 
 ![диаграмма классов](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/uml-class.png?raw=true)
 
-Диаграмма прецедентов
+## Диаграмма прецедентов
 
 ![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdionovMarat.github.io/blob/master/lab1/uml-prec.png?raw=true)
 
-## Лабораторная 2
+# Лабораторная 2
 
-Диаграмма IDEF0:
+## Диаграмма IDEF0:
 Контекстная:
 
 ![idef0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/01_A0а.png)
 
-На диаграмме изображен процесс работы гоночной команды
+## На диаграмме изображен процесс работы гоночной команды
 Средний уровень:
 
 ![2а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/02_A0а.png)
@@ -39,15 +39,17 @@ A1 Менеджер получает на вход расписание этап
 А4 Пилот (Гонщик) получает расписание предстоящих гонок, автомобиль, на основе которых проходят заезды и на выходе определяя возникшие технические проблемы а так же предоставляя резльтаты заездов.
 
 
-#DFD-диаграмма (блок:Снабдить):
+## DFD-диаграмма (блок:Снабдить):
 
 ![3а0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/03_A2а.png)
 
 Снабженец получает наряд заказ и заносит их в базу данных, определяя на основе расписаниях их необходимость в данный момент.
 
-Диаграмма прецедентов:
+## Диаграмма прецедентов:
 
 ![Диаграмма прецедентов](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/lab2/ump-proc.png?raw=true)
+
+
 
 # Лабораторная 3
 ## Диаграмма последовательности
