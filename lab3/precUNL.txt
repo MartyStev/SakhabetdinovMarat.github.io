@@ -7,22 +7,20 @@ skinparam actor {
 autonumber
 
 actor "Механик" as user
-database "Расписание гонок" as dbrace
-database "Технические проблемы" as dbproblem
+database "Задачи" as dbproblem
 entity "Запчасти" as en
 control "Ремонт" as con
 collections "автомобиль" as col
 
-user -> dbrace: Просмотор графика
-dbrace -> dbproblem: Просмотр задач
+user -> dbproblem: Просмотр задач
 activate dbproblem
 
 == Проверка задач ==
 
 loop
-   dbproblem -> en: Наличие запчастей
+   dbproblem -> en: Список запчастей
    activate en
-   en --> dbproblem: Решение проблем
+   en --> dbproblem: Наличие запчастей
    deactivate en
 end
 
@@ -31,7 +29,7 @@ end
 loop
    dbproblem -> en: Задача
    en -> con: Запчасти
-   con -> col: Готовый автомобиль
+   con -> col: Готовность автомобиль
    activate col
    col -> dbproblem: Состояние автомобиля
    deactivate col
