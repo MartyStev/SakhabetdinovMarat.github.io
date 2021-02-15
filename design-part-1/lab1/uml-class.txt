@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Пользователь" as P {
+ MS Excel
+Экспортировать (Excel файл, Формат данных) -> CSV файл
+}
+hide circle
+@enduml
