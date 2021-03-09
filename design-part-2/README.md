@@ -54,19 +54,19 @@
 
 * A21 Автоматизация процесса А21
 
-![A31](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/04_12.png)
+![A31](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/04_A12.png)
 
 * A21 Автоматизация процесса А21
 
-![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/06_21.png)
+![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/06_A21.png)
 
 * A22 Автоматизация процесса А22
 
-![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/07_22.png)
+![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/07_A22.png)
 
 * A23 Автоматизация процесса А23
 
-![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/08_23.png)
+![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/08_A23.png)
 
 ### 4. Описание выбранного процесса [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате прецедента (Use Case) [✋](https://github.com/stankin/design-part-2/wiki/LR-4)
 
