@@ -25,17 +25,24 @@
 
 * A-0 (контекстная диаграмма)
 
-![A-0](myrep\a-0.jpg)
+![A-0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/01_A0.png)
 
 * A0 (диаграмма верхнего уровня)
 
-![A0](myrep\a0.jpg)
+![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/02_A0.png)
 
-* A3 (декомпозиция процесса/процессов внутренней среды)
+* A1 (диаграмма верхнего уровня)
 
-![A3](myrep\a3.jpg)
+![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/03_A1.png)
 
-...
+* A2 (диаграмма верхнего уровня)
+
+![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/05_A2.png)
+
+* A3 (диаграмма верхнего уровня)
+
+![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/09_A3.png)
+
 
 ### 3. Функциональное моделирование программных и информационных средств (DFD) [✋](https://github.com/stankin/design-part-2/wiki/LR-2)
 
@@ -45,13 +52,21 @@
 
 **Допустимые виды хранилищ и их размещение:** <файлы, директории, репозитории, базы данных>
 
-* A31 Автоматизация процесса А31
+* A21 Автоматизация процесса А21
 
-![A31](myrep\a31.jpg)
+![A31](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/04_12.png)
 
-* A32 Автоматизация процесса А32
+* A21 Автоматизация процесса А21
 
-![A32](myrep\a32.jpg)
+![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/06_21.png)
+
+* A22 Автоматизация процесса А22
+
+![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/07_22.png)
+
+* A23 Автоматизация процесса А23
+
+![A32](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/08_23.png)
 
 ### 4. Описание выбранного процесса [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате прецедента (Use Case) [✋](https://github.com/stankin/design-part-2/wiki/LR-4)
 
