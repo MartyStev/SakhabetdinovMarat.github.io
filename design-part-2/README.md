@@ -31,15 +31,15 @@
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/02_A0.png)
 
-* Декомпозиция А-2
+* Декомпозиция А-1
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/03_A1.png)
 
-* Декомпозиция А-3
+* Декомпозиция А-2
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/05_A2.png)
 
-* Декомпозиция А-5
+* Декомпозиция А-3
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/09_A3.png)
 
