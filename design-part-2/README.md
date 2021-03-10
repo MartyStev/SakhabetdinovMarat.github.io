@@ -27,19 +27,19 @@
 
 ![A-0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/01_A0.png)
 
-* A0 (диаграмма верхнего уровня)
+* Процессы A-0
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/02_A0.png)
 
-* A1 (диаграмма верхнего уровня)
+* Декомпозиция А-2
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/03_A1.png)
 
-* A2 (диаграмма верхнего уровня)
+* Декомпозиция А-3
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/05_A2.png)
 
-* A3 (диаграмма верхнего уровня)
+* Декомпозиция А-5
 
 ![A0](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/lab1-3/09_A3.png)
 
