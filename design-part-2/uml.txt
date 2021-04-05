@@ -1,0 +1,50 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+autonumber
+
+database "БД источник" as dbsrc
+entity "ETL" as etl
+database "Промежуточное хранилище" as dbtemp
+database "Хранилище данных" as dbdst
+
+dbsrc-> etl: поток данных
+activate etl
+
+== Мэппинг данных ==
+
+loop
+   etl-> dbtemp: Конвертация данных
+   activate dbtemp
+   dbtemp--> etl: Поток данных
+   deactivate dbtemp
+end
+
+loop
+   etl-> dbtemp: Сортировка данных
+   activate dbtemp
+   dbtemp--> etl: Поток данных
+   deactivate dbtemp
+end
+
+loop
+   etl-> dbtemp: Группировка данных
+   activate dbtemp
+   dbtemp--> etl: Поток данных
+   deactivate dbtemp
+end
+
+
+== Споставление данных ==
+
+
+   etl--> dbdst: поток данных
+   deactivate etl
+
+== ==
+@enduml
+
+=========================================================================
