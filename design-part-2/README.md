@@ -136,6 +136,7 @@
 * **Продолжительность прецедента:** <n нормочасов>
 
 ### 5. Описание структуры объекта [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате ERD (Class) [✋](https://github.com/stankin/design-part-2/wiki/LR-5)
+[](http://www.plantuml.com/plantuml/png/bOzFJi906CNNp2actNC35uY7S5tRYJHC6JDJua9Dy4ya94PZujBenWC0GfWKgLTutusSCccefWlSpNlpVk_BwvWirDambSpqay5PgCEKHp8qXb-mLZUC-gTQ3GVnaP9Ay-DUaWdMEjHQdNkdArt41PMEXQvRLyotu1K55dIBDMnbVJYvGKxti3lp3JCQOOeP2hgXCInonkhqmMMx_OTj-6-g-GNvN53tw8dZkon2ZZKzEcg9ZRTpZcUy1CqLxrXZkasEK61E4zWIM3bpWIcDWxqk5zlRSonfKjqDMDCEZ-ycqmE7nQf4dHZ_6tPVPMX3rtI7mhs_gYL-5PRxLldDdpHoSeKSDc2z91Oy5Uc9qCQBAD6H5DL7rbEnOHqnY8Uf_040)
 
 * **Описываемый объект:** описание потока данных
 
