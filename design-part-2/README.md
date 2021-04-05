@@ -143,10 +143,10 @@
 
 ### 6. Описание алгоритма [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате UML (Sequence) [✋](https://github.com/stankin/design-part-2/wiki/LR-6)
 
-* **Описываемые процессы и потоки данных:** А21 Валидация данных
+* **Описываемые процессы и потоки данных:** А22 Мэппинг данных
 
 * **Диаграмма UML Sequence:**
-![p6](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/<user/user.github.io/master/<path><file>)
+![p6](http://www.plantuml.com/plantuml/png/nPB1Ikj058RNdQSuTDyNk91BRo_kN0gkfysWeKccJ2QAY50jLKH4H5SYb2xSXseaj3PzXJDlvEaaXBOgxdGN_lpd_p_Ed6QakT9nuBEewuKzhdW0lAEbWcDMQ_5ETq_9E7J_Iv-atNrF2rRxfvGyB9IMJnOoIkKAjIgTC1vh6SP1MoZ6NAvvcqS2wdYBzu2PEJLdc9iBd6E6qphm2Dnsf3fCXDhJHr3Vsjcsgj3-wlJ8z377DqpnrGogY1nJC4FwbTYy6ULVObgcQX7qLYEUDds0BrQOcoipB8VSI3DcYHf_bmn_01TKHeKuNVCpMfPtmBMmfCnn01_DDPaNc97dUSqCZiEOBsMF0Ipzb5tmKVm3vcIRO6hwL9EOSuAxMQ-YeQgjc2Ef_6fKdADFEQrJR8wBqFqIQ8ovHSdioYSunUGtSUu8Pc3t-jD0zb77L9pRgqseUeQflQ3qu_EMwDHNd96zdEyRg_EXZ2RLne7_3W00)
 
 ### 7. Описание состава [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате UML (Component) [✋](https://github.com/stankin/design-part-2/wiki/LR-7)
 
