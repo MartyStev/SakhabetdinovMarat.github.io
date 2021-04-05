@@ -48,3 +48,13 @@ end
 @enduml
 
 =========================================================================
+
+@startuml
+interface "LAN" as lan
+interface "LAN" as la
+
+[Источник данных] - lan
+lan - [Сервер ETL]
+[Сервер ETL]  - la
+la - [Хранилище данных]
+@enduml
