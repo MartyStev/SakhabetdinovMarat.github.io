@@ -151,10 +151,11 @@
 
 ### 7. Описание состава [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате UML (Component) [✋](https://github.com/stankin/design-part-2/wiki/LR-7)
 
-* **Описываемый объект:** <комплект поставки>
+* **Описываемый объект:** Интеграция данных
 
 * **Диаграмма UML Component:**
-![p7](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/<user/user.github.io/master/<path><file>)
+
+![p7](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuShCAqajIajCJbLGyd7qKr98B5R8ISp3Bip55NrXniN6YqqNzbrilx3tmeuBknGkRBcm0SZSUx7xOckiWYvOCn03MT4N5bxOUh7XmYOGgU0QuXFBXIca0DO2r07Mi1Gejm5iyEuBEovsNjYAQZoNGsfU2j3H0000)
 
 ### 8. Демонстрация реализации (личная страница)
 
