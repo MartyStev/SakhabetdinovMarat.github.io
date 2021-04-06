@@ -210,7 +210,9 @@
 **10.1 Определение числовых показателей для поставленной цели моделирования:**
 
 Стандарт цели: определение автоматизируемых функций
+
 ![](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20008.png)
+
 Способ получения: извлечение из диаграмм IDEF0 и DFD.
 
 **10.2 Определение числовых показателей для цели потенциального проекта автоматизации: [✋](https://github.com/stankin/design-1/wiki/interpret_process)**
@@ -226,10 +228,12 @@
 **10.4 Определение числовых показателей и расчет трудозатрат на разработку программных средств:**
 
 Расчет сложности разработки методом FPA IFPUG:
+
 ![](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20010.png)
 
 
 Расчет трудозатрат на разработку «с нуля» методом COCOMO II:
+
 ![](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20011.png)
 
 **ВЫВОДЫ**
