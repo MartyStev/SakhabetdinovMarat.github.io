@@ -220,10 +220,10 @@
 
 **10.4 Определение числовых показателей и расчет трудозатрат на разработку программных средств:**
 Расчет сложности разработки методом FPA IFPUG:
-[](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20009.png)
+[9](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20010.png)
 
 Расчет трудозатрат на разработку «с нуля» методом COCOMO II:
-[](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20011.png)
+[11](https://github.com/MartyStev/SakhabetdinovMarat.github.io/blob/master/design-part-2/Image%20011.png)
 
 **ВЫВОДЫ**
 
