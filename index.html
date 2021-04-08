@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Диаграммы</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .page-header {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+
+            border-bottom: 1px solid #999;
+            padding: 8px 16px;
+            width: 100vw;
+
+            background-color: #121212;
+            color: white;
+        }
+
+        .page-header__anchor {
+            color: white;
+        }
+
+        .container {
+            margin: auto;
+        }
+
+        .page-content {
+            column-gap: 8px;
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 8px;
+
+            padding: 16px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .lab-card {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .lab-card__description {
+            border-top: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+        }
+
+        .img-container {
+            background-position: center;
+            background-size: 100%;
+            height: 300px;
+        }
+
+        .idef0-background {
+            background-image: url('https://raw.githubusercontent.com/MartyStev/SakhabetdinovMarat.github.io/master/design-part-2/lab1-3/01_A0.png?raw=true');
+        }
+
+        .dfd-background {
+            background-image: url('https://github.com/MartyStev/SakhabetdinovMarat.github.io/raw/master/design-part-2/lab1-3/04_A12.png?raw=true');
+        }
+
+        .usecase-background {
+            background-image: url('https://camo.githubusercontent.com/012dafead93066bb5962dd57166db65a4681a8f1540e39136f2eaacc8b0ffd8f/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f706e672f665039314969443035385274537567746a386a554752666e767a384258375169575058324362733934324577774b396e764b686d316146677735586a53754e5f74535774344b4b6633383669766c37705f565f435f76583951504232424379706255624a47735031484a655f43704842327071727749394e754b706f5551526677454a754758346a49707244496171375538333531706e554f46614d646b79655a4458596f6f6b2d3656725a647a35596e725453327a32386f6d646375494145397848536d4764575f6c386a6843574d647431536f78483347735875584a4c4e563871745245305a474a796e446c305968425f565a645532667a7a475a7972384e496579326c785174557375656c377569345668564c4571566a6d7752302d7a346c696c31465332542d4d763369676d6a386445505f426e6c573030?raw=true');
+            background-size: 150%;
+        }
+
+        .class-background {
+            background-image: url('https://camo.githubusercontent.com/1e0d9c51d27d08bbcbad20f8b1fc76e5e13578d99e046cf6898eaf485a94a966/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f706e672f624f7a464a69393036434e4e70326163744e43333575593753357452594a4843364a444a75613944793479613934505a756a42656e5743304766574b674c5475747573534363636566576c53704e6c70566b5f42777657697244616d62537071617935506743454b4870387158622d6d4c5a55432d6754513347566e61503941792d44556157644d456a4851644e6b644172743431504d45585176524c796f7475314b3535644942444d6e62564a5976474b787469336c70334a43514f4f65503268675843496e6f6e6b68716d4d4d785f4f546a2d362d672d474e764e3533747738645a6b6f6e325a5a4b7a456367395a5254705a6355793143714c7872585a6b6173454b363145347a57494d336270574963445778716b357a6c52536f6e664b6a71444d4443455a2d7963716d45376e51663464485a5f36745056504d5833727449376d68735f67594c2d355052784c6c64446470486f53654b534463327a39314f7935556339714351424144364835444c377262456e4f48716e593855665f303430');
+            background-size: 150%;
+        }
+
+        .sequence-background {
+            background-image: url('https://camo.githubusercontent.com/16d6ad2c939ba23682d092884ad2e3d1edba6e47da1828bf768208f3c91d5922/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f706e672f6e504231496b6a303538524e645153755444794e6b393142526f5f6b4e30676b66797357654b63634a3251415935306a4c4b48344835535962327853587365616a33507a584a446c7645616158424f677864474e5f6c70645f705f45643651616b54396e7542456577754b7a686457306c4145625763444d515f354554715f3945374a5f49762d61744e724632725278667647794239494d4a6e4f6f496b4b416a49675443317668365350314d6f5a364e41767663715332776459427a753250454a4c6463396942643645367170686d32446e73663366435844684a48723356736a6373676a332d776c4a387a3337374471706e72476f6759316e4a433446776254597936554c564f626763515837714c594555446473304272514f636f697042385653493344635948665f626d6e5f3031544b48654b754e5643704d6650746d424d6d66436e6e30315f444450614e63393764555371435a69454f42734d463049707a6235746d4b566d33766349524f3668774c39454f537541784d512d596551676a633245665f36664b644144464551724a523877427146714951386f76485364696f5953756e55477453557538506333742d6a44307a6237374c39705267717365556551666c513371755f454d7744484e6439367a64457952675f45585a32524c6e65375f33573030');
+            background-size: 150%;
+        }
+
+        .component-background {
+            background-image: url('https://camo.githubusercontent.com/26152a73fac480f86912d60bf1a08acb71c9e4aacf937da301da1ad3ecd9ad1e/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f706e672f536f576b49496d6741537444755368434171616a49616a434a624c47796437714b723938423552384953703342697035354e72586e694e365971714e7a6272696c7833746d6575426b6e476b5242636d30535a53557837784f636b695759764f436e30334d54344e3562784f556837586d594f4767553051755846425849636130444f327230374d693147656a6d356979457542456f76734e6a5941515a6f4e47736655326a334830303030');
+            background-size: cover;
+        }
+
+        @media screen and (min-width: 600px) and (max-width: 900px) {
+            .page-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            .page-content {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+</body>
+<header class='page-header'>
+    <h2>Курсовая работа</h2>
+    <a class='page-header__anchor' href="https://github.com/MartyStev/SakhabetdinovMarat.github.io">
+        <h3>Github</h3>
+    </a>
+</header>
+
+<main class='page-content'>
+    <div class='lab-card'>
+        <div class='img-container idef0-background'></div>
+        <section class='lab-card__description'>
+            <a
+                href='https://github.com/MartyStev/SakhabetdinovMarat.github.io/tree/master/design-part-2#2-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2-idef0-'>
+                IDEF0 Диаграммы
+            </a>
+        </section>
+    </div>
+
+    <div class='lab-card'>
+        <div class='img-container dfd-background'></div>
+        <section class='lab-card__description'>
+            <a
+                href='https://github.com/MartyStev/SakhabetdinovMarat.github.io/tree/master/design-part-2#3-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D1%85-%D0%B8-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2-dfd-'>
+                DFD Диаграммы
+            </a>
+        </section>
+    </div>
+
+    <div class='lab-card'>
+        <div class='img-container usecase-background'></div>
+        <section class='lab-card__description'>
+            <a
+                href='https://github.com/MartyStev/SakhabetdinovMarat.github.io/tree/master/design-part-2#4-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0--%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5-%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D0%B0-use-case-'>
+                Usecase диаграмма
+            </a>
+        </section>
+    </div>
+
+    <div class='lab-card'>
+        <div class='img-container class-background'></div>
+        <section class='lab-card__description'>
+            <a
+                href='https://github.com/MartyStev/SakhabetdinovMarat.github.io/tree/master/design-part-2#5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0--%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5-erd-class-'>
+                ERD (Class) Диаграмма
+            </a>
+        </section>
+    </div>
+
+    <div class='lab-card'>
+        <div class='img-container sequence-background'></div>
+        <section class='lab-card__description'>
+            <a
+                href='https://github.com/MartyStev/SakhabetdinovMarat.github.io/tree/master/design-part-2#6-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%B0--%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5-uml-sequence-'>
+                Sequence диаграмма
+            </a>
+        </section>
+    </div>
+
+    <div class='lab-card'>
+        <div class='img-container component-background'></div>
+        <section class='lab-card__description'>
+            <a
+                href='https://github.com/MartyStev/SakhabetdinovMarat.github.io/tree/master/design-part-2#7-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B0--%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5-uml-component-'>
+                Component Диаграмма
+            </a>
+        </section>
+    </div>
+</main>
+
+</html>
