@@ -145,8 +145,8 @@
 * **Описываемые процессы и потоки данных:** А22 Мэппинг данных
 
 * **Диаграмма UML Sequence:**
-* 
-![p6](http://www.plantuml.com/plantuml/png/nPB1Ikj058RNdQSuTDyNk91BRo_kN0gkfysWeKccJ2QAY50jLKH4H5SYb2xSXseaj3PzXJDlvEaaXBOgxdGN_lpd_p_Ed6QakT9nuBEewuKzhdW0lAEbWcDMQ_5ETq_9E7J_Iv-atNrF2rRxfvGyB9IMJnOoIkKAjIgTC1vh6SP1MoZ6NAvvcqS2wdYBzu2PEJLdc9iBd6E6qphm2Dnsf3fCXDhJHr3Vsjcsgj3-wlJ8z377DqpnrGogY1nJC4FwbTYy6ULVObgcQX7qLYEUDds0BrQOcoipB8VSI3DcYHf_bmn_01TKHeKuNVCpMfPtmBMmfCnn01_DDPaNc97dUSqCZiEOBsMF0Ipzb5tmKVm3vcIRO6hwL9EOSuAxMQ-YeQgjc2Ef_6fKdADFEQrJR8wBqFqIQ8ovHSdioYSunUGtSUu8Pc3t-jD0zb77L9pRgqseUeQflQ3qu_EMwDHNd96zdEyRg_EXZ2RLne7_3W00)
+
+![p6](http://www.plantuml.com/plantuml/png/nPB1Ikj058RNdQSOkkyBNCYbjvUxkql1zJGPR6YIAPE98Y9KInKH4T6L2AKBzw4Q2QrDN-7C6tbc4afQ5NTADk7CV_x_O-Plnuf9bOG1YVj-D62IXJGKaN1xKeISAfdmsWbpbP3qY3GwpEtlIP54tbyHu6YtvojE6d-a50Vbf1EW18L2UbpMHyU49Kf4ITZbaX2FATPbCQTDk84x2ha-qQTGw7DOGWxp9cKnzRgnT0cFbAyEQVFVpdyxvIgeRq_q40fuXGnUz6XjKK16zHYFKkktGFyBo2fNnSD1tU9nMqVXsGwM-bAFgoKlLeHOejPlm_2BmWeA4mZp3JrXhlBtcUAMb3WEXGTz1IlySjGyROYfun0I234Wb1ezUfTyQ7yF1SfcaEaXngJw3E6kDxRDqZgjt3EZyg-rvfnyp6cKV7kTHzwdG5CeB4fkhtm6SqX_4kSMOKRcNhyTo3xg50hR0DFR5CCNaDaEPUyVk88tYRP8PNU-pgmAP3pQ69o4mHi0)
 
 ### 7. Описание состава [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате UML (Component) [✋](https://github.com/stankin/design-part-2/wiki/LR-7)
 
