@@ -62,6 +62,7 @@ la - [Хранилище данных]
 =========================================================================
 
 @startuml
+skinparam monochrome true
 left to right direction
 actor "Инженер" as инж
 actor "Аналитик" as анл
